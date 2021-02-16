@@ -1,11 +1,37 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let x = 3;
+let y = 10;
+let z = 4;
+let greeting = 'hello'
+let firstName = "Neo"
+let callStatus = 'ringing'
 
 
+function double (){
+ x = x + x
+}
 
+function triple(){
+  y = y + y + y 
+}
 
- 
+function square(){
+  z = z * z 
+}
+
+function beNice(){
+  greeting = "hello " + firstName
+}
+
+function changeName(){
+  firstName = "Danger"
+}
+
+function hangUp(){
+callStatus = 'call ended'
+}
 
 /*********************************************************************************************************************
 
